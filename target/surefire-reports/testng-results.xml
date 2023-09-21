@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-15T15:27:06 CEST" name="All Test Suite" finished-at="2023-08-15T15:27:29 CEST" duration-ms="22453">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="NegativeValidationsTest.validateLoginNegative()[pri:0, instance:tako.tests.NegativeValidationsTest@7161d8d1]" name="validateLoginNegative" class="tako.tests.NegativeValidationsTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="order">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:tako.tests.SubmitOrderTest@45d84a20]" name="submitOrder" class="tako.tests.SubmitOrderTest"/>
+      </group> <!-- order -->
+    </groups>
+    <test started-at="2023-08-15T15:27:06 CEST" name="Negative Test" finished-at="2023-08-15T15:27:20 CEST" duration-ms="13821">
+      <class name="tako.tests.NegativeValidationsTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tako.tests.NegativeValidationsTest@7161d8d1]" started-at="2023-08-15T15:27:06 CEST" name="launchApp" finished-at="2023-08-15T15:27:11 CEST" duration-ms="4737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="validateLoginNegative()[pri:0, instance:tako.tests.NegativeValidationsTest@7161d8d1]" started-at="2023-08-15T15:27:11 CEST" name="validateLoginNegative" finished-at="2023-08-15T15:27:12 CEST" duration-ms="1014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginNegative -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tako.tests.NegativeValidationsTest@7161d8d1]" started-at="2023-08-15T15:27:12 CEST" name="TearDown" finished-at="2023-08-15T15:27:12 CEST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tako.tests.NegativeValidationsTest@7161d8d1]" started-at="2023-08-15T15:27:12 CEST" name="launchApp" finished-at="2023-08-15T15:27:17 CEST" duration-ms="4819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="validateProductNegative()[pri:0, instance:tako.tests.NegativeValidationsTest@7161d8d1]" started-at="2023-08-15T15:27:17 CEST" name="validateProductNegative" finished-at="2023-08-15T15:27:20 CEST" duration-ms="3111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductNegative -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tako.tests.NegativeValidationsTest@7161d8d1]" started-at="2023-08-15T15:27:20 CEST" name="TearDown" finished-at="2023-08-15T15:27:20 CEST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- tako.tests.NegativeValidationsTest -->
+    </test> <!-- Negative Test -->
+    <test started-at="2023-08-15T15:27:06 CEST" name="Purchase" finished-at="2023-08-15T15:27:29 CEST" duration-ms="22453">
+      <class name="tako.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tako.tests.SubmitOrderTest@45d84a20]" started-at="2023-08-15T15:27:07 CEST" name="launchApp" finished-at="2023-08-15T15:27:11 CEST" duration-ms="4216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:tako.tests.SubmitOrderTest@45d84a20]" started-at="2023-08-15T15:27:11 CEST" name="submitOrder" data-provider="getDatas" finished-at="2023-08-15T15:27:15 CEST" duration-ms="3944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Master25%, email=oguzhantaksar@hotmail.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tako.tests.SubmitOrderTest@45d84a20]" started-at="2023-08-15T15:27:15 CEST" name="TearDown" finished-at="2023-08-15T15:27:15 CEST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tako.tests.SubmitOrderTest@45d84a20]" started-at="2023-08-15T15:27:15 CEST" name="launchApp" finished-at="2023-08-15T15:27:20 CEST" duration-ms="4717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:tako.tests.SubmitOrderTest@45d84a20]" started-at="2023-08-15T15:27:20 CEST" name="submitOrder" data-provider="getDatas" finished-at="2023-08-15T15:27:24 CEST" duration-ms="3779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Master25%, email=oguzhan+2@hotmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tako.tests.SubmitOrderTest@45d84a20]" started-at="2023-08-15T15:27:24 CEST" name="TearDown" finished-at="2023-08-15T15:27:24 CEST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:tako.tests.SubmitOrderTest@45d84a20]" started-at="2023-08-15T15:27:24 CEST" name="launchApp" finished-at="2023-08-15T15:27:28 CEST" duration-ms="4233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="validateOrderFromOrdersPage()[pri:0, instance:tako.tests.SubmitOrderTest@45d84a20]" started-at="2023-08-15T15:27:28 CEST" name="validateOrderFromOrdersPage" finished-at="2023-08-15T15:27:29 CEST" depends-on-methods="tako.tests.SubmitOrderTest.submitOrder" duration-ms="853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOrderFromOrdersPage -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:tako.tests.SubmitOrderTest@45d84a20]" started-at="2023-08-15T15:27:29 CEST" name="TearDown" finished-at="2023-08-15T15:27:29 CEST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- tako.tests.SubmitOrderTest -->
+    </test> <!-- Purchase -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

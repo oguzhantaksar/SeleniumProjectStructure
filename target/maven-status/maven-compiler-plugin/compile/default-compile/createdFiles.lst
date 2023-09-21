@@ -1,0 +1,8 @@
+takoFramework\AbstractComponents\AbstractComponent.class
+takoFramework\pageobjects\CartPage.class
+takoFramework\pageobjects\OrdersPage.class
+takoFramework\pageobjects\LandingPage.class
+takoFramework\pageobjects\OrderPage.class
+takoFramework\pageobjects\ProductsPage.class
+takoFramework\pageobjects\ThanksPage.class
+takoFramework\resources\ExtentReporterNG.class
